@@ -10,7 +10,10 @@
 
 This is a commercial project that helps collect donations from people around the world to close the needs of the Armed Forces of Ukraine.
 
-For the safety and uniqueness of the project, I upload only a part of the code. You can try the user experience at https://ppo.all4ukraine.org
+For the safety and uniqueness of the project, I upload only a part of the code. You can try the user experience at 
+<p style="font-size:2em" align="center">
+  ** https://ppo.all4ukraine.org **
+</p>
 
 ## Main idea / user interface
 The main idea is that people buy signatures on shells, which are then sent to the russian military "quickly and hotly."
