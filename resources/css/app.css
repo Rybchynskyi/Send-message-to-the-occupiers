@@ -1,0 +1,394 @@
+html{
+    font-family: "Apple Braille";
+}
+
+.height-container{
+    height: 73vh;
+}
+
+.container{
+    max-width:1200px;
+}
+
+.rocketContainer {
+    height: 90px;
+}
+
+.rocketBackground{
+    background: url(../../public/storage/rocket.svg) no-repeat;
+    width: 80%;
+    height: 70%;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+.rocketTitle{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 1vw;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .rocketTitle{
+        font-size: 0.9rem;
+    }
+}
+
+.rocketButtons {
+    position: absolute;
+    top: 3.6vw;
+    right: 0;
+    padding: 0;
+}
+
+.scrollbar{
+    max-height: 270px;
+    overflow-x: scroll;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+
+.topImg{
+    background-image: url(../../public/storage/sky.jpg);
+    padding: 50px 0 50px 0;
+    background-size: cover;
+}
+
+.topMainText{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.topMessage{
+    text-transform: uppercase;
+    margin: 0 25%;
+}
+
+.parallelogram {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background: yellow;
+    color: black;
+}
+
+.parallelogram > div{
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+.parallelogramBorder {
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    border: 2px solid white;
+    padding: 0 20px;
+    height: 60px;
+    max-width: 300px;
+}
+
+@media (max-width: 578px) {
+    .parallelogramBorder {
+        margin: 0px auto;
+    }
+}
+
+.parallelogramBorder > div{
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+.numbersImg {
+    max-height: 70px;
+}
+
+.numbersText {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.sectionName{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 3rem 0 2rem 0;
+}
+
+.contentText{
+    font-size: 1.1rem;
+}
+
+.conditions{
+    background: url(../../public/storage/conditions.svg) no-repeat;
+    background-position: center;
+    padding: 0px 150px 260px 150px;
+}
+
+.conditionsTitle{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0rem 0 2rem 0;
+}
+
+.conditionsBlock{
+    font-size: 1.2rem;
+    border: 3px solid #0159BF;
+    min-height: 150px;
+    width: 300px;
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    min-width: 200px;
+}
+
+.conditionsNumberBlock{
+    position:absolute;
+    right: 15px;
+    bottom: -15px;
+    background: #0159BF;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.conditionsNumberBlock > div{
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+@media (max-width: 630px) {
+    .conditions{
+        background: none;
+        background-position: center;
+        padding: 0px 20px;
+    }
+
+    .conditionsBlock{
+        font-size: 1rem;
+        border: 3px solid #0159BF;
+        min-height: 50px;
+        width: 300px;
+        background: white;
+        padding: 10px 10px 22px 10px;
+        margin-bottom: 20px;
+        position: relative;
+        min-width: 200px;
+    }
+}
+
+.yellowButton{
+    background: yellow;
+    padding: 5px 15px;
+    color: #343434;
+    /*border: 0px;*/
+    border-radius: 0px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    font-size: 1.2rem;
+}
+
+.yellowButton > div{
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+}
+
+.bgYellow{
+    background: yellow;
+    color: black !important;
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 0px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bgYellow:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.45);
+}
+
+.iconsYellow{
+    text-decoration: none;
+    color: yellow;
+    border: 0px;
+}
+
+.iconsYellow:hover{
+    text-decoration: none;
+    color: yellow;
+    box-shadow: 0.5rem 0.5rem 1.5rem rgb(0,0,0,.45);
+}
+
+.textYellow{
+    color: yellow;
+}
+
+.divider{
+    position: relative;
+    padding: 40px 0;
+}
+
+.divider hr{
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer{
+    background-color: #255184;
+}
+
+.site-header {
+    background-color: rgb(3 59 136 / 85%);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: white;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.block {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+.certificateButton{
+    width: 100%;
+    height: 70px;
+    background-image: url(../../public/storage/sert_bg.png);
+    background-position-y: center;
+    display:inline-block;
+    background-size: cover;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+    outline: none;
+}
+
+.certificateContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+}
+
+.certificateBG{
+    background-color: #295485;
+    font-size: 5.5vw;
+    padding: 1vw 2vw;
+
+}
+
+.certificateText {
+    font-size: 1.5vw;
+    margin: 1.2vw 0 0 0;
+}
+
+.certificateName {
+    font-size: 3vw;
+    margin-bottom: 0.5vw;
+}
+
+@media (max-width: 578px) {
+    .headerArrow{
+        transform: rotate(90deg);
+    }
+}
+
+.footerLogo{
+    max-width: 200px;
+}
+
+.sertificateExample{
+    max-width: 600px;
+    transform: perspective(1500px) rotateY(15deg);
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: transform 1s ease 0s;
+}
+
+.sertificateExample:hover {
+    transform: perspective(3000px) rotateY(-5deg);
+}
+
+.changeLang{
+    background: none;
+    border: none;
+}
+
+.loginButton{
+    /*color: black !important;*/
+    border: 0px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.loginButton:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.45);
+}
+
+.loginGoogle {
+    background: #F65314;
+}
+
+.loginFacebook{
+    background: #3b5998
+}
+
+.loginGithub {
+ background: #9b58b6;
+}
+
+.navbar .navbar-toggler-icon {
+    opacity: 1;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.iconsForSafari{
+    text-rendering: optimizeLegibility;
+}
+
+.table-donations {
+    overflow-x: scroll;
+}
+
+.certificate {
+    max-width: 1200px;
+}
+
+.certificateImg {
+    max-height: 400px;
+}
